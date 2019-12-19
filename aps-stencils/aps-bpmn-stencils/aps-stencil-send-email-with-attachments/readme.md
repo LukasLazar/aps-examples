@@ -22,7 +22,8 @@ OR
 5. The email task configuration if you want to send only one document in the process. ![Email-with-one-document](resources/Email-with-one-document.png)
 6. Deploy the [JAR file](resources/activiti-extension-send-email-with-attachments-1.0-SNAPSHOT.jar) to the activiti-app webapp's WEB-INF/lib folder.
    eg: /usr/local/tomcat/webapps/activiti-app/WEB-INF/lib
-7. Publish/Deploy the App.
+7. Create a new mail template to be used in the email tasks, configure the template in the process modeller for both tasks
+8. Publish/Deploy the App.
 
 ### Please follow these steps if you want to update the extension
 1. [Setting up an Extension Project](https://community.alfresco.com/community/bpm/blog/2016/11/14/activiti-enterprise-developer-series-setting-up-an-extension-project)
